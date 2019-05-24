@@ -4,7 +4,7 @@
 	Listing Content: Black text, red headings. Headings use shadow effect.
 */
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800");
 
 /* LISTING BODY STYLE */
 #advertBody {
@@ -12,17 +12,18 @@
 	background: #ffffff;
 	margin-left: auto; margin-right: auto; max-width:48em !important;
 	padding: 0em 0.5em 1em !important;  /* top, left and right, bottom */
-	font-size: 0.85em; /* Desktop style size. Conditional font styling is set at bottom of this CSS */
+	font-size: 0.87em; /* Desktop size. Conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
+
 /* TEXT STYLES */
-#advertBody p, ul, ol {
+#advertBody p, ul, ol, table {
 	font-weight: 400;
 	color: #000000; 
 	line-height: 1.5;
 }
-
+	
 #advertBody ul, ol {
     padding-top: 0em; padding-bottom: 0em !important; 
     padding-left: 2.6em;
@@ -37,7 +38,7 @@
 #advertBody .hh1 {
 	font-size: 150%;
 	font-weight: 800;
-	line-height: 1.1;
+	line-height: 1.3;
 	letter-spacing: 0.00em; 
 	margin-bottom: -0.1em;
 	color: #000000;
@@ -63,6 +64,51 @@
 }
 
 
+
+/* GLOBAL TABLE STYLING */
+#advertBody table * {
+	vertical-align: middle;
+}
+
+#advertBody table {
+	border-collapse: collapse;
+	margin-top: 2em;
+	width: 100%;
+	border-top: solid 3px;
+	border-color: #dedede;
+	background-color: #f9f9f9;
+}
+
+#advertBody table tr {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-color: #dedede;
+}
+
+#advertBody table td {
+	padding: 0.3em 0.5em;
+}
+
+#advertBody table .row-heading-text {
+	font-weight: 700;
+}
+
+/* "Clothing Size" TABLE STYLING */
+#advertBody table.sizing-info-table .clothing-size-text {
+	font-size: 1.2em;
+	letter-spacing: 0.03em; 
+}
+
+/*
+#advertBody table.sizing-info-table td:nth-child(2) {  
+	font-size: 1.4em;
+	letter-spacing: 0.03em; 
+}
+*/
+
+
+
+
 /* CONDITIONAL STYLING - PHONE */
 @media screen and (max-width: 450px)
 {
@@ -70,6 +116,7 @@
 		font-size: 0.76em;
 	}
 }
+
 
 
 /* CONDITIONAL STYLING - TABLET * (currently not necessary, just use initial desktop font style)/
