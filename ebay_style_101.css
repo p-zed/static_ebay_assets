@@ -97,18 +97,12 @@
 	font-weight: 700;
 }
 
-/* "Clothing Size" TABLE STYLING */
+/* TABLE STYLING - Clothing Size */
 #advertBody table.sizing-info-table .clothing-size-text {
 	font-size: 1.2em;
 	letter-spacing: 0.03em; 
 }
 
-/*
-#advertBody table.sizing-info-table td:nth-child(2) {  
-	font-size: 1.4em;
-	letter-spacing: 0.03em; 
-}
-*/
 
 
 
