@@ -1,7 +1,7 @@
 /*
 	CSS for eBay Listing
 	Body Background: Plain white
-	Listing Content: Black text, red headings. Headings use shadow effect.
+	Listing Content: Black text, red headings (no shadow).
 */
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800");
@@ -35,6 +35,24 @@
     padding-left: 0px;
 }
 
+
+/*
+#advertBody ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+#advertBody ol li {
+  counter-increment: my-awesome-counter;
+}
+#advertBody ol li::before {
+  content: counter(my-awesome-counter) ".  ";
+  font-weight: 700;
+}
+*/
+	
+	
+
+
 #advertBody .hh1 {
 	font-size: 150%;
 	font-weight: 800;
@@ -42,7 +60,6 @@
 	letter-spacing: 0.00em; 
 	margin-bottom: -0.1em;
 	color: #000000;
-	text-shadow: 1px 1px 4px #cccccc;
 }
 
 #advertBody .hh2 {
@@ -52,7 +69,6 @@
 	padding-top: 0.4em;
 	margin-bottom: -0.5em;
 	color: #ae1e1b;
-	text-shadow: 1px 1px 3px #cccccc;
 }
 
 #advertBody .footnote {
