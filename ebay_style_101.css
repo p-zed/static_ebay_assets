@@ -10,7 +10,7 @@
 #advertBody {
 	font-family: 'Montserrat', Arial, Helvetica, Verdana, sans-serif !important;
 	background: #ffffff;
-	margin-left: auto; margin-right: auto; max-width:48em !important;
+	margin-left: auto; margin-right: auto; max-width:48em;
 	padding: 0em 0.5em 1em !important;  /* top, left and right, bottom */
 	font-size: 0.84em; /* Desktop size. Conditional font styling for phone devices is set at bottom of this CSS */
 }
@@ -25,7 +25,7 @@
 }
 	
 #advertBody ul, ol {
-    padding-top: 0em; padding-bottom: 0em !important; 
+    padding-top: 0em; padding-bottom: 0em; 
     padding-left: 2.6em;
     margin-left: 0em;
 }
@@ -35,6 +35,9 @@
     padding-left: 0px;
 }
 
+#advertBody li.extra-spacing {
+	padding-bottom: 0.7em;
+}
 
 /*
 #advertBody ol {
