@@ -12,7 +12,7 @@
 	background: #ffffff;
 	margin-left: auto; margin-right: auto; max-width:48em;
 	padding: 0em 0.5em 1em !important;  /* top, left and right, bottom */
-	font-size: 0.84em; /* Desktop size. Conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 0.85em; /* Desktop size. Conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
@@ -26,7 +26,7 @@
 	
 #advertBody ul, ol {
     padding-top: 0em; padding-bottom: 0em; 
-    padding-left: 2.6em;
+    padding-left: 2.0em;
     margin-left: 0em;
 }
 
@@ -38,23 +38,6 @@
 #advertBody li.extra-spacing {
 	padding-bottom: 0.7em;
 }
-
-/*
-#advertBody ol {
-  list-style: none;
-  counter-reset: my-awesome-counter;
-}
-#advertBody ol li {
-  counter-increment: my-awesome-counter;
-}
-#advertBody ol li::before {
-  content: counter(my-awesome-counter) ".  ";
-  font-weight: 700;
-}
-*/
-	
-	
-
 
 #advertBody .hh1 {
 	font-size: 150%;
@@ -130,7 +113,7 @@
 @media screen and (max-width: 450px)
 {
    #advertBody {
-		font-size: 0.77em;
+		font-size: 0.78em;
 	}
 }
 
