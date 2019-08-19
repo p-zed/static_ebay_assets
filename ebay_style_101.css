@@ -112,8 +112,14 @@
 /* CONDITIONAL STYLING - PHONE */
 @media screen and (max-width: 450px)
 {
-   #advertBody {
+	/* Reduce global font size */
+	#advertBody {
 		font-size: 0.78em;
+	}
+	
+	/* Reduce bullet indent on smaller screens */
+	#advertBody ul, ol {
+		padding-left: 1.5em;
 	}
 }
 
