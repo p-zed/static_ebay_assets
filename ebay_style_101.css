@@ -57,6 +57,15 @@
 	color: #ae1e1b;
 }
 
+#advertBody .hh3 {
+	font-size: 111%; 
+	font-weight: 700;
+	line-height: 1;
+	padding-top: 0.4em;
+	margin-bottom: -0.7em;
+	color: #707070;
+}
+
 #advertBody .footnote {
 	font-size: 85%;
 	font-weight: 400; 
