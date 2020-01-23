@@ -2,6 +2,7 @@
 	CSS for eBay Listing
 	Body Background: Plain white
 	Listing Content: Black text, red headings (no shadow).
+	Font: Montserrat
 */
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800");
@@ -41,7 +42,7 @@
 
 #advertBody .hh1 {
 	font-size: 150%;
-	font-weight: 800;
+	font-weight: 700;
 	line-height: 1.3;
 	letter-spacing: 0.00em; 
 	margin-bottom: -0.1em;
@@ -69,7 +70,7 @@
 #advertBody .footnote {
 	font-size: 85%;
 	font-weight: 400; 
-	letter-spacing: 0.030em;
+	letter-spacing: 0.020em;
 	line-height: 1.3;	
 	color: #706d6a;
 }
@@ -143,6 +144,4 @@
 	}
 }
 */
-
-
 
