@@ -115,14 +115,16 @@
 /* TABLE STYLING - Clothing Size */
 #advertBody table.sizing-info-table .clothing-size-text {
 	font-size: 1.2em;
-	letter-spacing: 0.1em; 
+	letter-spacing: 0.03em; 
 }
 
 
 
 
-
+/* ----------------------------------------------------------- */
 /* CONDITIONAL STYLING - PHONE */
+/* ----------------------------------------------------------- */
+
 @media screen and (max-width: 450px)
 {
 	/* Reduce global font size */
