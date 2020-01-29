@@ -95,6 +95,7 @@
 	font-weight: inherit;
 	font-style: inherit;
 	font-variant: inherit;
+	line-height: 1.3;
 }
 
 #advertBody table tr {
@@ -114,7 +115,7 @@
 /* TABLE STYLING - Clothing Size */
 #advertBody table.sizing-info-table .clothing-size-text {
 	font-size: 1.2em;
-	letter-spacing: 0.03em; 
+	letter-spacing: 0.1em; 
 }
 
 
