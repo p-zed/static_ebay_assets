@@ -16,7 +16,7 @@
 	background: #ffffff;
 	margin-left: auto; margin-right: auto; 
 	max-width:50em;
-	padding: 0.7em 0.5em 1em !important;  /* top, left and right, bottom */
+	padding: 0, 0.5em 1em !important;  /* top, left and right, bottom */
 	font-size: 0.82em; /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 	letter-spacing: 0.012em;
 }
@@ -132,10 +132,10 @@
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 0.81em;
+		font-size: 0.79em;
 	}
 	
-	/* Increase the font weight for normal text. The thin font is too thin when rendered small on phone screen */
+	/* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered small on phone screen */
 	#advertBody p, ul, ol, table {
 		font-weight: 400;
 	}
@@ -149,6 +149,7 @@
 	#advertBody .hh1 {
 		font-size: 130%;
 		font-weight: 600;
+		margin-top: 0;
 	}
 }
 
