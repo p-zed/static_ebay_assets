@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 1/2/2020
+	Revision Date: 4/2/2020
 	
 	Font: Poppins
 	Body Background: Plain white
@@ -12,14 +12,14 @@
 
 /* LISTING BODY STYLE */
 #advertBody {
-	background: #ffffff;
-	margin-left: auto; margin-right: auto; margin-bottom: 3em;
+	background: white;
 	max-width: 50em;
-	padding: 0, 3.5em 1em !important;  /* top, left and right, bottom */
+	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
+	padding: 0.5em 0.7em 2em;  /* INTERNAL - top, left & right, bottom */
 	
 	/* Default Text Definition */
 	font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 0.82em; /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 0.83em; /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 	letter-spacing: 0.012em;
 	font-weight: 300;
 	color: #000000; 
@@ -50,14 +50,14 @@
 #advertBody .hh1 {
 	font-size: 150%;
 	font-weight: 700;
-	line-height: 1.29;
+	line-height: 1.27;
 	letter-spacing: 0.00em; 
 	margin-bottom: -0.1em;
 	color: #000000;
 }
 
 #advertBody .hh2 {
-	font-size: 130%; 
+	font-size: 135%; 
 	font-weight: 700;
 	line-height: 1.1;
 	padding-top: 0.4em;
@@ -66,7 +66,7 @@
 }
 
 #advertBody .hh3 {
-	font-size: 111%; 
+	font-size: 118%; 
 	font-weight: 700;
 	line-height: 1;
 	padding-top: 0.4em;
@@ -136,6 +136,7 @@
 	#advertBody {
 		font-size: 0.79em;
 		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
+		padding-top: 0em;
 	}
 	
 	/
@@ -151,6 +152,7 @@
 	#advertBody .hh1 {
 		font-size: 135%;
 		font-weight: 700;
+		line-height: 1.19;
 		margin-top: 0;
 	}
 }
