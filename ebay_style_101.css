@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 4/2/2020
+	Revision Date: 6/2/2020
 	
 	Font: Poppins
 	Body Background: Plain white
@@ -15,11 +15,11 @@
 	background: white;
 	max-width: 50em;
 	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
-	padding: 0.1em 0.7em 1.5em;  /* INTERNAL - top, left & right, bottom */
+	padding: 0.1em 0.6em 1.5em;  /* INTERNAL - top, left & right, bottom */
 	
 	/* Default Text Definition */
 	font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 0.83em; /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 0.84em; /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 	letter-spacing: 0.012em;
 	font-weight: 300;
 	color: #000000; 
@@ -36,6 +36,10 @@
     padding-top: 0em; padding-bottom: 0em; 
     padding-left: 2.5em;
     margin-left: 0em;
+}
+
+#advertBody strong {
+	font-weight: 600;	
 }
 
 #advertBody li {
@@ -74,6 +78,7 @@
 	color: #9a9a9a;
 }
 
+/* Used mainly underneath the listing title asking the buyer to check all images */
 #advertBody .footnote {
 	font-size: 85%;
 	font-weight: 300; 
@@ -91,7 +96,7 @@
 
 #advertBody table {
 	border-collapse: collapse;
-	margin-top: 2em;
+	margin-top: 1.8em;
 	width: 100%;
 	border-top: solid 3px;
 	border-color: #dedede;
@@ -114,14 +119,46 @@
 }
 
 #advertBody table .row-heading-text {
-	font-weight: 700;
+	font-weight: 600;
 }
 
-/* TABLE STYLING - Clothing Size Text (larger) */
+
+/* TABLE STYLING - For selling clothes/shoes - measurements text (larger) */
 #advertBody table.sizing-info-table .clothing-size-text {
 	font-size: 1.1em;
 	letter-spacing: 0.03em; 
 }
+
+
+/* TABLE STYLING - For selling books */
+#advertBody table.book-info-table {
+}
+
+/* Column 1 Style */
+#advertBody table.book-info-table .col-heading {
+	width: 30%;
+	background: #f0f0f0;
+}
+
+/* Column 2 Style */
+#advertBody table.book-info-table .col-info {
+	width: 70%;
+} 
+
+
+/*
+Following is an alternative way to style the text in a table, on a per-column basis....
+
+#advertBody table.book-info-table td:first-child {
+	font-weight: 600;
+#advertBody table.book-info-table td:nth-child(2) {
+	font-weight: 600;
+}
+*/
+
+
+
+
 
 
 
