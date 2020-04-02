@@ -20,7 +20,7 @@
 	/* Default Text Definition */
 	font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif !important;
 	/* font-size: 0.84em;  Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
-	font-size: 0.95em; 
+	font-size: 0.9em; 
 	letter-spacing: 0.012em;
 	font-weight: 300;
 	color: #000000; 
