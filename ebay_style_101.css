@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 9/2/2020
+	Revision Date: 2/4/2020
 	
 	Font: Poppins
 	Body Background: Plain white
@@ -20,7 +20,7 @@
 	/* Default Text Definition */
 	font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif !important;
 	/* font-size: 0.84em;  Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
-	font-size: 0.8em; 
+	font-size: 0.95em; 
 	letter-spacing: 0.012em;
 	font-weight: 300;
 	color: #000000; 
