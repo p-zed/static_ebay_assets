@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 2/4/2020
+	Revision Date: 3/4/2020
 	
 	Font: Poppins
 	Body Background: Plain white
@@ -161,14 +161,11 @@ Following is an alternative way to style the text in a table, on a per-column ba
 
 
 
-
-
-
 /* ----------------------------------------------------------- */
 /* CONDITIONAL STYLING - PHONE SCREEN */
 /* ----------------------------------------------------------- */
 
-@media screen and (max-width: 450px)
+@media screen and (max-width: 500px)
 {
 	/* Reduce global font size */
 	#advertBody {
