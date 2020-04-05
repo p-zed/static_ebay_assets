@@ -20,11 +20,11 @@
 	/* Default Text Definition */
 	font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif !important;
 	/* font-size: 0.84em;  Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
-	font-size: 0.9em; 
+	font-size: 0.82em; 
 	letter-spacing: 0.012em;
-	font-weight: 400;
+	font-weight: 300;
 	color: #000000; 
-	line-height: 1.35;
+	line-height: 1.37;
 }
 
 
@@ -169,7 +169,7 @@ Following is an alternative way to style the text in a table, on a per-column ba
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 0.79em;
+		font-size: 0.80em;
 		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
 		padding-top: 0em;
 	}
