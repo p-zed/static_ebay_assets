@@ -94,8 +94,7 @@
 #advertBody .footnote {
 	font-size: 84%;
 	font-weight: 400; 
-	letter-spacing: 0.030em;
-	line-height: 1.3;	
+	line-height: 1.18;	
 	color: #979797;
 	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
 }
