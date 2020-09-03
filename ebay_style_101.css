@@ -192,6 +192,8 @@ Following is an alternative way to style the text in a table, on a per-column ba
 		font-size: 0.89em;
 		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
 		padding-top: 0em;
+		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
+		padding-right: 0.35em;
 	}
 	
 	/
