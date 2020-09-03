@@ -63,10 +63,10 @@
 }
 
 #advertBody .hh1 {
-	font-size: 170%;
+	font-size: 160%;
 	font-weight: 600;
 	text-align: center;
-	margin-bottom: -0.1em;
+	margin-bottom: 0.6em;
 	color: #000000;
 }
 
@@ -81,12 +81,12 @@
 }
 
 #advertBody .hh2 {
-	font-size: 155%; 
+	font-size: 148%; 
 	color: #ae1e1b;
 }
 
 #advertBody .hh3 {
-	font-size: 130%; 
+	font-size: 120%; 
 	color: #9a9a9a;
 }
 
@@ -205,7 +205,7 @@ Following is an alternative way to style the text in a table, on a per-column ba
 	
 	/* Reduce HH1 font height and weight on smaller screens */
 	#advertBody .hh1 {
-		font-size: 155%;
+		font-size: 145%;
 		line-height: 1.19;
 		margin-top: 0;
 	}
