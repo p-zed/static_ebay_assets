@@ -1,36 +1,38 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 4/4/2020
+	Revision Date: 2/9/2020
 	
-	Font: Poppins
+	Font Main: Open Sans
+	Font Headings: Inknut Antiqua (book style font)
 	Body Background: Plain white
-	Listing Content: Black text, red headings (no shadow).
+	Listing Content: Black text, red headings.
 */
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;700&display=swap');
 
 
 /* LISTING BODY STYLE */
 #advertBody {
 	background: white;
-	max-width: 50em;
+	max-width: 41em;
 	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
 	padding: 0.1em 0.6em 1.5em;  /* INTERNAL - top, left & right, bottom */
 	
 	/* Default Text Definition */
-	font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif !important;
-	/* font-size: 0.84em;  Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
-	font-size: 0.92em; 
-	letter-spacing: 0.012em;
-	font-weight: 300;
-	color: #000000; 
-	line-height: 1.37;
+	font-family: 'Open Sans', Arial, Helvetica, Verdana, sans-serif !important;
 }
 
 
 
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
+	font-size: 0.9em;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	letter-spacing: 0.010em;
+	font-weight: 400;
+	color: #000000; 
+	line-height: 1.37;
 }
 	
 #advertBody ul, ol {
@@ -52,40 +54,50 @@
 	padding-bottom: 0.7em;
 }
 
+#advertBody .hh1,
+#advertBody .hh2,
+#advertBody .hh3 {
+	font-family: 'Inknut Antiqua', cursive; 
+	line-height: 1.2;
+	letter-spacing: -0.05em;
+}
+
 #advertBody .hh1 {
-	font-size: 150%;
-	font-weight: 700;
-	line-height: 1.27;
-	letter-spacing: 0.00em; 
+	font-size: 170%;
+	font-weight: 600;
+	text-align: center;
 	margin-bottom: -0.1em;
 	color: #000000;
 }
 
+#advertBody .hh2,
+#advertBody .hh3 {
+	font-weight: 600;
+	text-align: left;
+	margin-top: 1.2em;
+	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
 #advertBody .hh2 {
-	font-size: 135%; 
-	font-weight: 700;
-	line-height: 1.1;
-	padding-top: 0.4em;
-	margin-bottom: -0.5em; /* Reduce space underneath text, default is too much */
+	font-size: 155%; 
 	color: #ae1e1b;
 }
 
 #advertBody .hh3 {
-	font-size: 118%; 
-	font-weight: 700;
-	line-height: 1;
-	padding-top: 0.4em;
-	margin-bottom: -0.5em; /* Reduce space underneath text, default is too much */
+	font-size: 130%; 
 	color: #9a9a9a;
 }
 
 /* Used mainly underneath the listing title asking the buyer to check all images */
 #advertBody .footnote {
-	font-size: 85%;
-	font-weight: 300; 
+	font-size: 84%;
+	font-weight: 400; 
 	letter-spacing: 0.030em;
 	line-height: 1.3;	
-	color: #706d6a;
+	color: #979797;
+	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
 }
 
 
@@ -97,15 +109,17 @@
 
 #advertBody table {
 	border-collapse: collapse;
-	margin-top: 1.8em;
+	margin-top: 1.3em;
 	width: 100%;
 	border-top: solid 3px;
 	border-color: #dedede;
 	background-color: #f9f9f9;
+	/*
 	font-size: inherit;
 	font-weight: inherit; 
 	font-style: inherit;
 	font-variant: inherit;
+	*/
 	line-height: 1.3;
 }
 
@@ -116,7 +130,7 @@
 }
 
 #advertBody table td {
-	padding: 0.3em 0.5em;
+	padding: 0.30em 0.6em;
 }
 
 #advertBody table .row-heading-text {
@@ -124,10 +138,17 @@
 }
 
 
-/* TABLE STYLING - For selling clothes/shoes - measurements text (larger) */
+/* TABLE STYLING - For selling clothes/shoes - measurements text (extra large) */
 #advertBody table.sizing-info-table .clothing-size-text {
-	font-size: 1.1em;
+	font-size: 1.5em;
+	font-weight: 600;
 	letter-spacing: 0.03em; 
+}
+
+/* Column 1 background colour */
+#advertBody table.sizing-info-table td:first-child,
+#advertBody table.book-info-table td:first-child {
+		background: #f0f0f0;
 }
 
 
@@ -138,7 +159,6 @@
 /* Column 1 Style */
 #advertBody table.book-info-table .col-heading {
 	width: 30%;
-	background: #f0f0f0;
 }
 
 /* Column 2 Style */
@@ -169,7 +189,7 @@ Following is an alternative way to style the text in a table, on a per-column ba
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 0.81em;
+		font-size: 0.89em;
 		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
 		padding-top: 0em;
 	}
@@ -185,8 +205,7 @@ Following is an alternative way to style the text in a table, on a per-column ba
 	
 	/* Reduce HH1 font height and weight on smaller screens */
 	#advertBody .hh1 {
-		font-size: 135%;
-		font-weight: 700;
+		font-size: 155%;
 		line-height: 1.19;
 		margin-top: 0;
 	}
