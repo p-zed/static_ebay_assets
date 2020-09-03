@@ -22,14 +22,13 @@
 	
 	/* Default Text Definition */
 	font-family: 'Open Sans', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 0.95em;  /* This is used for overall scalling of the whole page */
 }
 
 
 
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
-	font-size: 0.87em;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 0.84em;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 	letter-spacing: 0.010em;
 	font-weight: 400;
 	color: #000000; 
