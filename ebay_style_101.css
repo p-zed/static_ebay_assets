@@ -57,7 +57,8 @@
 #advertBody .hh1,
 #advertBody .hh2,
 #advertBody .hh3 {
-	font-family: 'Inknut Antiqua', cursive; 
+	/* font-family: 'Inknut Antiqua', cursive; */
+	font-family: Arial;
 	line-height: 1.2;
 	letter-spacing: -0.05em;
 }
