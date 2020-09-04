@@ -29,7 +29,7 @@
 
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
-	letter-spacing: 0.010em;
+	letter-spacing: 0.016em;
 	font-weight: 400;
 	color: #000000; 
 	line-height: 1.5;
@@ -105,8 +105,9 @@
 #advertBody table * {
 	vertical-align: middle;
 	line-height: inherit;
-	/*
+	letter-spacing: inherit;
 	font-size: inherit;
+	/*
 	font-weight: inherit; 
 	font-style: inherit;
 	font-variant: inherit;
