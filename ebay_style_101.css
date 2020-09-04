@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 4/9/2020 - 004
+	Revision Date: 4/9/2020 - 006
 	
 	Font Main: Open Sans
 	Font Headings: Inknut Antiqua (book style font)
@@ -16,7 +16,7 @@
 /* LISTING BODY STYLE */
 #advertBody {
 	background: white;
-	max-width: 630px;
+	max-width: 660px;
 	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
 	padding: 0.1em 0.6em 1.5em;  /* INTERNAL - top, left & right, bottom */
 	
@@ -86,7 +86,7 @@
 }
 
 #advertBody .hh3 {
-	font-size: 140%; 
+	font-size: 128%; 
 	color: #9a9a9a;
 }
 
