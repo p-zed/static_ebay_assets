@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 4/9/2020
+	Revision Date: 4/9/2020 - 002
 	
 	Font Main: Open Sans
 	Font Headings: Inknut Antiqua (book style font)
@@ -115,6 +115,7 @@
 }
 
 #advertBody table {
+	font-size: inherit;
 	border-collapse: collapse;
 	margin-top: 1.3em;
 	width: 100%;
