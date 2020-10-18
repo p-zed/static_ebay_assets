@@ -22,7 +22,7 @@
 	
 	/* Default Text Definition */
 	font-family: 'Open Sans', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 13px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 15px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
