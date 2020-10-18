@@ -62,11 +62,11 @@
 }
 
 #advertBody .hh1 {
-	font-size: 280%;
+	font-size: 255%;
 	font-weight: 300;
 	text-align: center;
 	margin-top: 0.5em;
-	margin-bottom: -0.2em;
+	margin-bottom: -0.1em;
 	color: #000000;
 	letter-spacing: -0.02em;
 }
@@ -84,12 +84,12 @@
 }
 
 #advertBody .hh2 {
-	font-size: 205%; 
+	font-size: 195%; 
 	color: #ae1e1b;
 }
 
 #advertBody .hh3 {
-	font-size: 190%; 
+	font-size: 180%; 
 	color: #9a9a9a;
 }
 
