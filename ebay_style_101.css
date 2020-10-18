@@ -1,16 +1,16 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 4/9/2020 - 007
+	Revision Date: 19/10/2020
 	
 	Font Main: Open Sans
-	Font Headings: Inknut Antiqua (book style font)
+	Font Headings: Pridi 
 	Body Background: Plain white
 	Listing Content: Black text, red headings.
 */
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300;400;500;600&display=swap');
 
 
 /* LISTING BODY STYLE */
@@ -22,7 +22,7 @@
 	
 	/* Default Text Definition */
 	font-family: 'Open Sans', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 14px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 13px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
@@ -32,7 +32,7 @@
 	letter-spacing: 0.016em;
 	font-weight: 400;
 	color: #000000; 
-	line-height: 1.5;
+	line-height: 1.4;
 }
 	
 #advertBody ul, ol {
@@ -57,36 +57,39 @@
 #advertBody .hh1,
 #advertBody .hh2,
 #advertBody .hh3 {
-	font-family: 'Inknut Antiqua', Arial; 
-	line-height: 1.28;
-	letter-spacing: -0.05em;
+	font-family: 'Pridi', Arial;
+	line-height: 1;
 }
 
 #advertBody .hh1 {
-	font-size: 177%;
-	font-weight: 600;
+	font-size: 280%;
+	font-weight: 300;
 	text-align: center;
-	margin-bottom: 0.6em;
+	margin-top: 0.5em;
+	margin-bottom: -0.2em;
 	color: #000000;
+	letter-spacing: -0.02em;
 }
 
 #advertBody .hh2,
 #advertBody .hh3 {
-	font-weight: 600;
+	font-weight: 400;
 	text-align: left;
 	margin-top: 1.2em;
-	margin-bottom: -0.3em; /* Reduce space underneath text, default is too much */
+	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
 	padding-top: 0em;
 	padding-bottom: 0em;
+	letter-spacing: -0.002em;
+	/* text-transform: uppercase; */
 }
 
 #advertBody .hh2 {
-	font-size: 165%; 
+	font-size: 205%; 
 	color: #ae1e1b;
 }
 
 #advertBody .hh3 {
-	font-size: 120%; 
+	font-size: 190%; 
 	color: #9a9a9a;
 }
 
@@ -188,7 +191,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 0.85em;
+		font-size: 75%;
 		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
@@ -206,9 +209,15 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	/* Reduce HH1 font height and weight on smaller screens */
 	#advertBody .hh1 {
-		font-size: 145%;
-		line-height: 1.19;
+		font-size: 175%;
+		font-weight: 400;
 		margin-top: 0;
 	}
+	
+	#advertBody .hh2 {
+		font-size: 165%;
+		font-weight: 400;
+	}
+	
 }
 
