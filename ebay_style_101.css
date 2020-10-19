@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 19/10/2020
+	Revision Date: 20/10/2020
 	
 	Font Main: Open Sans
 	Font Headings: Pridi 
@@ -62,7 +62,7 @@
 }
 
 #advertBody .hh1 {
-	font-size: 255%;
+	font-size: 220%;
 	font-weight: 300;
 	text-align: center;
 	margin-top: 0.5em;
@@ -84,12 +84,12 @@
 }
 
 #advertBody .hh2 {
-	font-size: 195%; 
+	font-size: 185%; 
 	color: #ae1e1b;
 }
 
 #advertBody .hh3 {
-	font-size: 180%; 
+	font-size: 175%; 
 	color: #9a9a9a;
 }
 
@@ -191,7 +191,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 75%;
+		font-size: 90%;
 		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
