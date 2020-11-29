@@ -57,7 +57,6 @@
 #advertBody .hh2,
 #advertBody .hh3 {
 	font-weight: 800;
-	line-height: 1;
 	letter-spacing: -0.056em;
 }
 
@@ -66,6 +65,7 @@
 	text-align: center;
 	margin-top: 0.5em;
 	margin-bottom: -0.1em;
+	line-height: 1.07;
 	color: #000000;
 }
 
@@ -76,6 +76,7 @@
 	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
 	padding-top: 0em;
 	padding-bottom: 0em;
+	line-height: 1;
 	/* text-transform: uppercase; */
 }
 
