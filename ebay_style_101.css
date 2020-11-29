@@ -1,16 +1,15 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 20/10/2020
+	Revision Date: 29/11/2020
 	
 	Font Main: Open Sans
-	Font Headings: Pridi 
+	Font Headings: Open Sans (Extra Bold) 
 	Body Background: Plain white
 	Listing Content: Black text, red headings.
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 
 
 /* LISTING BODY STYLE */
@@ -22,7 +21,7 @@
 	
 	/* Default Text Definition */
 	font-family: 'Open Sans', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 15px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 14px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
@@ -57,29 +56,26 @@
 #advertBody .hh1,
 #advertBody .hh2,
 #advertBody .hh3 {
-	font-family: 'Pridi', Arial;
+	font-weight: 800;
 	line-height: 1;
+	letter-spacing: -0.056em;
 }
 
 #advertBody .hh1 {
-	font-size: 220%;
-	font-weight: 300;
+	font-size: 200%;
 	text-align: center;
 	margin-top: 0.5em;
 	margin-bottom: -0.1em;
 	color: #000000;
-	letter-spacing: -0.02em;
 }
 
 #advertBody .hh2,
 #advertBody .hh3 {
-	font-weight: 400;
 	text-align: left;
 	margin-top: 1.2em;
 	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
 	padding-top: 0em;
 	padding-bottom: 0em;
-	letter-spacing: -0.002em;
 	/* text-transform: uppercase; */
 }
 
@@ -100,7 +96,7 @@
 	letter-spacing: 0.04em;
 	line-height: 1.32;
 	color: #979797;
-	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
+	margin-bottom: -1.3em; /* Reduce space underneath text, default is too much */
 }
 
 
@@ -191,8 +187,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 90%;
-		font-weight: 400; /* Increase the font weight for all normal text. The thin font looks good on desktop/tablet, but is too thin when rendered on phone screen */
+		font-size: 85%;
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
 		padding-right: 0.35em;
@@ -210,13 +205,11 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	/* Reduce HH1 font height and weight on smaller screens */
 	#advertBody .hh1 {
 		font-size: 175%;
-		font-weight: 400;
 		margin-top: 0;
 	}
 	
 	#advertBody .hh2 {
-		font-size: 165%;
-		font-weight: 400;
+		font-size: 155%;
 	}
 	
 }
