@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 15/08/2021
+	Revision Date: 10/07/2023
 	
 	Font Main: Open Sans
 	Font Headings: Open Sans (Extra Bold) 
@@ -31,7 +31,7 @@
 	letter-spacing: 0.016em;
 	font-weight: 400;
 	color: #000000; 
-	line-height: 1.4;
+	line-height: 1.5;
 }
 	
 #advertBody ul, ol {
@@ -92,11 +92,11 @@
 
 /* Used mainly underneath the listing title asking the buyer to check all images */
 #advertBody .footnote {
-	font-size: 90%;
+	font-size: 92%;
 	font-weight: 400; 
 	letter-spacing: 0.04em;
 	line-height: 1.32;
-	color: #979797;
+	color: #818181;
 	margin-bottom: -1.3em; /* Reduce space underneath text, default is too much */
 }
 
@@ -188,7 +188,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 85%;
+		font-size: 90%;
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
 		padding-right: 0.35em;
