@@ -31,7 +31,7 @@
 	letter-spacing: 0.016em;
 	font-weight: 400;
 	color: #000000; 
-	line-height: 1.5;
+	line-height: 1.4;
 }
 	
 #advertBody ul, ol {
@@ -50,7 +50,7 @@
 }
 
 #advertBody li.extra-spacing {
-	padding-bottom: 0.7em;
+	padding-bottom: 0.5em;
 }
 
 #advertBody .hh1,
@@ -97,7 +97,7 @@
 	letter-spacing: 0.04em;
 	line-height: 1.32;
 	color: #818181;
-	margin-bottom: -1.3em; /* Reduce space underneath text, default is too much */
+	margin-bottom: -0.8em; /* Reduce space underneath text, default is too much */
 }
 
 
@@ -205,7 +205,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	/* Reduce HH1 font height and weight on smaller screens */
 	#advertBody .hh1 {
-		font-size: 175%;
+		font-size: 165%;
 		margin-top: 0;
 	}
 	
