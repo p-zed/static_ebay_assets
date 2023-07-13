@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 10/07/2023
+	Revision Date: 13/07/2023
 	
 	Font Main: Open Sans
 	Font Headings: Open Sans (Extra Bold) 
@@ -57,11 +57,11 @@
 #advertBody .hh2,
 #advertBody .hh3 {
 	font-weight: 800;
-	letter-spacing: -0.04em;
+	letter-spacing: -0.03em;
 }
 
 #advertBody .hh1 {
-	font-size: 200%;
+	font-size: 195%;
 	text-align: center;
 	margin-top: 0.4em;
 	margin-bottom: -0.1em;
@@ -81,12 +81,12 @@
 }
 
 #advertBody .hh2 {
-	font-size: 185%; 
+	font-size: 182%; 
 	color: #ae1e1b;
 }
 
 #advertBody .hh3 {
-	font-size: 175%; 
+	font-size: 172%; 
 	color: #9a9a9a;
 }
 
@@ -97,7 +97,7 @@
 	letter-spacing: 0.04em;
 	line-height: 1.32;
 	color: #818181;
-	margin-bottom: -0.8em; /* Reduce space underneath text, default is too much */
+	margin-bottom: -0.7em; /* Reduce space underneath text, default is too much */
 }
 
 
@@ -188,7 +188,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 90%;
+		font-size: 92%;
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
 		padding-right: 0.35em;
@@ -203,14 +203,22 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 		padding-left: 1.5em;
 	}
 	
-	/* Reduce HH1 font height and weight on smaller screens */
+	/* Reduce font weight for headings */
+	#advertBody .hh1,
+	#advertBody .hh2,
+	#advertBody .hh3 {
+		font-weight: 800;
+	}
+	
+	/* Reduce HH1 font height and margin on smaller screens */
 	#advertBody .hh1 {
-		font-size: 165%;
+		font-size: 163%;
 		margin-top: 0;
+		line-height: 1.17;
 	}
 	
 	#advertBody .hh2 {
-		font-size: 155%;
+		font-size: 152%;
 	}
 	
 }
