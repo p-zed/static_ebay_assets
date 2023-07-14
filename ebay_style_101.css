@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 13/07/2023
+	Revision Date: 14/07/2023
 	
 	Font Main: Open Sans
 	Font Headings: Open Sans (Extra Bold) 
@@ -57,7 +57,7 @@
 #advertBody .hh2,
 #advertBody .hh3 {
 	font-weight: 800;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.024em;
 }
 
 #advertBody .hh1 {
@@ -86,7 +86,8 @@
 }
 
 #advertBody .hh3 {
-	font-size: 172%; 
+	font-size: 125%; 
+	letter-spacing: -0.01em;
 	color: #9a9a9a;
 }
 
