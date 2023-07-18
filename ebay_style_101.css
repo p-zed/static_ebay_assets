@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 17/07/2023
+	Revision Date: 18/07/2023
 	
 	Font Main: Open Sans
 	Font Headings: Open Sans (Extra Bold) 
@@ -31,7 +31,7 @@
 	letter-spacing: 0.016em;
 	font-weight: 400;
 	color: #000000; 
-	line-height: 1.4;
+	line-height: 1.6;
 }
 	
 #advertBody ul, ol {
@@ -86,7 +86,7 @@
 }
 
 #advertBody .hh3 {
-	font-size: 125%; 
+	font-size: 130%; 
 	letter-spacing: -0.01em;
 	color: #505050;  /* OLD: #9a9a9a; */
 	margin-top: 1.5em;
@@ -197,8 +197,9 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 		padding-right: 0.35em;
 	}
 	
-	/
+	/* Reduce ling height a tad */
 	#advertBody p, ul, ol, table {
+		line-height: 1.4;
 	}
 	
 	/* Reduce bullet indent on smaller screens */
@@ -215,7 +216,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	/* Reduce HH1 font height and margin on smaller screens */
 	#advertBody .hh1 {
-		font-size: 163%;
+		font-size: 160%;
 		margin-top: 0;
 		line-height: 1.17;
 	}
