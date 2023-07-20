@@ -1,11 +1,11 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 18/07/2023
+	Revision Date: 20/07/2023
 	
 	Font Main: Open Sans
 	Font Headings: Open Sans (Extra Bold) 
 	Body Background: Plain white
-	Listing Content: Black text, red headings, dark grey subheadings.
+	Listing Content: Dark grey text, red headings, dark grey subheadings.
 */
 
 
@@ -30,7 +30,7 @@
 #advertBody p, ul, ol, table {
 	letter-spacing: 0.016em;
 	font-weight: 400;
-	color: #000000; 
+	color: #505050;
 	line-height: 1.6;
 }
 	
@@ -88,9 +88,9 @@
 #advertBody .hh3 {
 	font-size: 130%; 
 	letter-spacing: -0.01em;
-	color: #505050;  /* OLD: #9a9a9a; */
+	color: #505050;  
 	margin-top: 1.5em;
-	margin-bottom: -0.2em; /* Reduce space underneath text, default is too much */
+	margin-bottom: -0.1em; /* Reduce space underneath text, default is too much */
 }
 
 /* Used mainly underneath the listing title asking the buyer to check all images */
