@@ -1,6 +1,6 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 21/07/2023
+	Revision Date: 24/07/2023
 	
 	Font Main: Montserrat
 	Font Headings: Montserrat (Extra Bold) 
@@ -28,7 +28,7 @@
 
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
-	letter-spacing: 0.018em;
+	letter-spacing: 0.001em;
 	font-weight: 400;
 	color: #505050;
 	line-height: 1.55;
