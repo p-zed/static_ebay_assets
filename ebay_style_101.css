@@ -194,7 +194,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 {
 	/* Reduce global font size */
 	#advertBody {
-		font-size: 92%;
+		font-size: 96%;
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
 		padding-right: 0.35em;
@@ -219,7 +219,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	/* Reduce HH1 font height and margin on smaller screens */
 	#advertBody .hh1 {
-		font-size: 160%;
+		font-size: 152%;
 		margin-top: 0;
 		line-height: 1.17;
 	}
