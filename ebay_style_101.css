@@ -8,7 +8,7 @@
 	Listing Content: Dark grey text, red headings, dark grey subheadings.
 */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 
 
 
@@ -21,14 +21,14 @@
 	
 	/* Default Text Definition */
 	font-family: 'Montserrat', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 14px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 15px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
 
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
-	letter-spacing: 0.001em;
+	letter-spacing: -0.01em;
 	font-weight: 400;
 	color: #505050;
 	line-height: 1.55;
@@ -61,7 +61,7 @@
 }
 
 #advertBody .hh1 {
-	font-size: 192%;
+	font-size: 180%;
 	text-align: center;
 	margin-top: 0.4em;
 	margin-bottom: -0.1em;
@@ -79,7 +79,7 @@
 }
 
 #advertBody .hh2 {
-	font-size: 182%; 
+	font-size: 176%; 
 	color: #ae1e1b;
 	margin-top: 1.2em;
 	margin-bottom: -0.01em; /* Reduce space underneath text, default is too much */
@@ -95,9 +95,9 @@
 
 /* Used mainly underneath the listing title asking the buyer to check all images */
 #advertBody .footnote {
-	font-size: 92%;
+	font-size: 90%;
 	font-weight: 400; 
-	letter-spacing: 0.04em;
+	letter-spacing: 0.00em;
 	line-height: 1.32;
 	color: #818181;
 	margin-bottom: -0.7em; /* Reduce space underneath text, default is too much */
