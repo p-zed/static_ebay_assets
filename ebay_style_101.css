@@ -6,6 +6,9 @@
 	Font Headings: Montserrat (Extra Bold) 
 	Body Background: Plain white
 	Listing Content: Dark grey text, red headings, dark grey subheadings.
+	
+	NOTE: When copying/pasting from google fonts code, change 'CSS2' to just 'CSS'. Also remove 'wght@'
+	eBay's Official Font:  font-family: Market-Sans,
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
@@ -86,9 +89,9 @@
 }
 
 #advertBody .hh3 {
-	font-size: 130%; 
+	font-size: 125%; 
 	letter-spacing: -0.01em;
-	color: #505050;  
+	color: #717070;
 	margin-top: 1.5em;
 	margin-bottom: -0.1em; /* Reduce space underneath text, default is too much */
 }
