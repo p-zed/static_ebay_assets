@@ -85,7 +85,7 @@
 	font-size: 26px; 
 	color: #ae1e1b;
 	margin-top: 1.2em;
-	margin-bottom: -0.01em; /* Reduce space underneath text, default is too much */
+	margin-bottom: -0.18em; /* Reduce space underneath text, default is too much */
 }
 
 #advertBody .hh3 {
