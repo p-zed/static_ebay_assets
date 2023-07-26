@@ -39,7 +39,7 @@
 	
 #advertBody ul, ol {
     padding-top: 0em; padding-bottom: 0em; 
-    padding-left: 2.3em;
+    padding-left: 2.4em;
     margin-left: 0em;
 }
 
@@ -77,12 +77,12 @@
 	text-align: left;
 	padding-top: 0em;
 	padding-bottom: 0em;
-	line-height: 1.2;
+	line-height: 1.3;
 	/* text-transform: uppercase; */
 }
 
 #advertBody .hh2 {
-	font-size: 25.5px; 
+	font-size: 26px; 
 	color: #ae1e1b;
 	margin-top: 1.2em;
 	margin-bottom: -0.01em; /* Reduce space underneath text, default is too much */
@@ -227,6 +227,10 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	#advertBody .hh2 {
 		font-size: 139%;
+	}
+
+	#advertBody .hh3 {
+		font-size: 110%;
 	}
 	
 }
