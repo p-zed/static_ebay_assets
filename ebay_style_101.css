@@ -33,7 +33,7 @@
 #advertBody p, ul, ol, table {
 	font-weight: 400;
 	color: 000000;  /* #505050; */
-	line-height: 1.44;
+	line-height: 1.4;
 	/* letter-spacing: -0.00em; */
 }
 	
@@ -53,7 +53,7 @@
 }
 
 #advertBody li.extra-spacing {
-	padding-bottom: 0.70em;
+	padding-bottom: 0.90em;
 }
 
 #advertBody .hh1,
