@@ -1,11 +1,11 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 24/07/2023
+	Revision Date: 26/07/2023
 	
 	Font Main: Montserrat
 	Font Headings: Montserrat (Extra Bold) 
 	Body Background: Plain white
-	Listing Content: Dark grey text, red headings, dark grey subheadings.
+	Listing Content: Black body text, red headings, dark grey subheadings.
 	
 	NOTE: When copying/pasting from google fonts code, change 'CSS2' to just 'CSS'. Also remove 'wght@'
 	eBay's Official Font:  font-family: Market-Sans,
@@ -24,22 +24,22 @@
 	
 	/* Default Text Definition */
 	font-family: 'Montserrat', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 15px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-size: 15.4px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
 
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
-	letter-spacing: -0.01em;
 	font-weight: 400;
-	color: #505050;
-	line-height: 1.55;
+	color: 000000;  /* #505050; */
+	line-height: 1.40;
+	/* letter-spacing: -0.00em; */
 }
 	
 #advertBody ul, ol {
     padding-top: 0em; padding-bottom: 0em; 
-    padding-left: 2.5em;
+    padding-left: 2.3em;
     margin-left: 0em;
 }
 
@@ -53,7 +53,7 @@
 }
 
 #advertBody li.extra-spacing {
-	padding-bottom: 0.5em;
+	padding-bottom: 0.70em;
 }
 
 #advertBody .hh1,
@@ -64,7 +64,7 @@
 }
 
 #advertBody .hh1 {
-	font-size: 180%;
+	font-size: 26px;
 	text-align: center;
 	margin-top: 0.4em;
 	margin-bottom: -0.1em;
@@ -77,19 +77,19 @@
 	text-align: left;
 	padding-top: 0em;
 	padding-bottom: 0em;
-	line-height: 1;
+	line-height: 1.2;
 	/* text-transform: uppercase; */
 }
 
 #advertBody .hh2 {
-	font-size: 176%; 
+	font-size: 25.5px; 
 	color: #ae1e1b;
 	margin-top: 1.2em;
 	margin-bottom: -0.01em; /* Reduce space underneath text, default is too much */
 }
 
 #advertBody .hh3 {
-	font-size: 125%; 
+	font-size: 19px; 
 	letter-spacing: -0.01em;
 	color: #717070;
 	margin-top: 1.5em;
@@ -203,11 +203,12 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	/* Reduce ling height a tad */
 	#advertBody p, ul, ol, table {
 		line-height: 1.4;
+		letter-spacing: -0.03em;
 	}
 	
 	/* Reduce bullet indent on smaller screens */
 	#advertBody ul, ol {
-		padding-left: 1.5em;
+		padding-left: 1.3em;
 	}
 	
 	/* Reduce font weight for headings */
@@ -219,13 +220,13 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	/* Reduce HH1 font height and margin on smaller screens */
 	#advertBody .hh1 {
-		font-size: 152%;
+		font-size: 135%;
 		margin-top: 0;
 		line-height: 1.17;
 	}
 	
 	#advertBody .hh2 {
-		font-size: 152%;
+		font-size: 139%;
 	}
 	
 }
