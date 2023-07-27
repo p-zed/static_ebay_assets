@@ -11,6 +11,7 @@
 	eBay's Official Font:  font-family: Market-Sans,
 	
 	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&family=Montserrat:700,800&display=swap');
@@ -20,9 +21,12 @@
 /* LISTING BODY STYLE */
 #advertBody {
 	background: white;
-	max-width: 700px;
-	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
-	padding: 0.1em 2.0em 1.5em;  /* INTERNAL - top, left & right, bottom */
+	max-width: 690px;
+
+	margin: 0.1em auto 1.5em; /* EXTERNAL - top, left & right, bottom */
+	padding: 0em 3em 0em;  /* INTERNAL - top, left & right, bottom */
+	
+	
 	
 	/* Default Text Definition */
 	font-family: 'Open Sans', Helvetica, Verdana, sans-serif !important;
@@ -36,15 +40,17 @@
 	font-weight: 400;
 	color: #505050;
 	line-height: 1.5;
-	text-align: justify;
 	/* letter-spacing: -0.00em; */
 
+}
+
+#advertBody p, ul, ol {
+	text-align: justify;
 }
 	
 #advertBody ul, ol {
     padding-top: 0em; padding-bottom: 0em; 
-    padding-left: 2.4em;
-    margin-left: 0em;
+	padding-left: 2.5em;
 }
 
 #advertBody strong {
@@ -52,8 +58,8 @@
 }
 
 #advertBody li {
-    margin-left: 0px;
-    padding-left: 0px;
+	/* Text indent from bullet */
+	padding-left: 0.35em;
 }
 
 #advertBody li.extra-spacing {
