@@ -1,30 +1,32 @@
 /*
 	CSS for eBay Listing
-	Revision Date: 26/07/2023
+	Revision Date: 27/07/2023
 	
-	Font Main: Montserrat
+	Font Main: Open Sans
 	Font Headings: Montserrat (Extra Bold) 
 	Body Background: Plain white
-	Listing Content: Black body text, red headings, dark grey subheadings.
+	Listing Content: Dark grey body text, red headings, dark grey subheadings.
 	
 	NOTE: When copying/pasting from google fonts code, change 'CSS2' to just 'CSS'. Also remove 'wght@'
 	eBay's Official Font:  font-family: Market-Sans,
+	
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
 */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap&family=Montserrat:700,800&display=swap');
 
 
 
 /* LISTING BODY STYLE */
 #advertBody {
 	background: white;
-	max-width: 710px;
+	max-width: 700px;
 	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
 	padding: 0.1em 0.6em 1.5em;  /* INTERNAL - top, left & right, bottom */
 	
 	/* Default Text Definition */
-	font-family: 'Montserrat', Arial, Helvetica, Verdana, sans-serif !important;
-	font-size: 15.4px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
+	font-family: 'Open Sans', Helvetica, Verdana, sans-serif !important;
+	font-size: 15.8px;  /* Desktop size. NOTE, conditional font styling for phone devices is set at bottom of this CSS */
 }
 
 
@@ -32,9 +34,11 @@
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
 	font-weight: 400;
-	color: 000000;  /* #505050; */
-	line-height: 1.4;
+	color: #505050;
+	line-height: 1.5;
+	text-align: justify;
 	/* letter-spacing: -0.00em; */
+
 }
 	
 #advertBody ul, ol {
@@ -59,12 +63,13 @@
 #advertBody .hh1,
 #advertBody .hh2,
 #advertBody .hh3 {
+	font-family: 'Montserrat', Arial, Helvetica, Verdana, sans-serif !important;
 	font-weight: 800;
 	letter-spacing: -0.024em;
 }
 
 #advertBody .hh1 {
-	font-size: 26px;
+	font-size: 27px;
 	text-align: center;
 	margin-top: 0.4em;
 	margin-bottom: -0.1em;
@@ -82,7 +87,7 @@
 }
 
 #advertBody .hh2 {
-	font-size: 26px; 
+	font-size: 27px; 
 	color: #ae1e1b;
 	margin-top: 1.2em;
 	margin-bottom: -0.18em; /* Reduce space underneath text, default is too much */
@@ -92,8 +97,8 @@
 	font-size: 19px; 
 	letter-spacing: -0.01em;
 	color: #717070;
-	margin-top: 1.5em;
-	margin-bottom: -0.1em; /* Reduce space underneath text, default is too much */
+	margin-top: 1.6em;
+	margin-bottom: -0.4em; /* Reduce space underneath text, default is too much */
 }
 
 /* Used mainly underneath the listing title asking the buyer to check all images */
@@ -198,12 +203,14 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 		padding-top: 0em;
 		padding-left: 0.35em;  /* Decrease the left/right margins on phone devices to utilize more of the screen */
 		padding-right: 0.35em;
+
 	}
 	
 	/* Reduce ling height a tad */
 	#advertBody p, ul, ol, table {
 		line-height: 1.4;
-		letter-spacing: -0.03em;
+		letter-spacing: 0.00em;
+		text-align: left;
 	}
 	
 	/* Reduce bullet indent on smaller screens */
