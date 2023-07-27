@@ -59,7 +59,7 @@
 
 #advertBody li {
 	/* Text indent from bullet */
-	padding-left: 0.25em;
+	padding-left: 0.00em;
 }
 
 #advertBody li.extra-spacing {
@@ -221,7 +221,7 @@ Another way is to use the HTML <colgroup> but this can only apply background col
 	
 	/* Reduce bullet indent on smaller screens */
 	#advertBody ul, ol {
-		padding-left: 1.3em;
+		padding-left: 1.5em;
 	}
 	
 	/* Reduce font weight for headings */
