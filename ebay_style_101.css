@@ -22,7 +22,7 @@
 	background: white;
 	max-width: 700px;
 	margin: 0em auto 0em; /* EXTERNAL - top, left & right, bottom */
-	padding: 0.1em 0.6em 1.5em;  /* INTERNAL - top, left & right, bottom */
+	padding: 0.1em 2.0em 1.5em;  /* INTERNAL - top, left & right, bottom */
 	
 	/* Default Text Definition */
 	font-family: 'Open Sans', Helvetica, Verdana, sans-serif !important;
