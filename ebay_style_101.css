@@ -38,7 +38,7 @@
 /* TEXT STYLES */
 #advertBody p, ul, ol, table {
 	font-weight: 400;
-	color: #505050;
+	color: #000000;
 	line-height: 1.5;
 	/* letter-spacing: -0.00em; */
 
@@ -81,7 +81,7 @@
 	margin-top: 0.4em;
 	margin-bottom: -0.1em;
 	line-height: 1.27;
-	color: #505050;
+	color: #000000;
 }
 
 #advertBody .hh2,
